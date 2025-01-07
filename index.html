@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lonely Planet</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom CSS -->
+      <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">lonely<i class="fa-solid fa-earth-americas"></i>planet</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Destination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Planning</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inspiration</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Shop</a>
+              </li>
+            </ul>
+            <div class="icons-btn">
+                <i class="fa-solid fa-magnifying-glass"></i><span>Search</span>
+                <i class="fa-regular fa-bookmark"></i></i><span>Save</span>
+                <button type="button" class="btn btn-primary">Sign up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://img.freepik.com/free-photo/beautiful-girl-sitting-rock-james-bond-island-phang-nga-thailand_335224-1224.jpg?ga=GA1.1.1467767022.1728195050&semt=ais_hybrid" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>New York</h3>
+              <p>19 Best Places For Tourism</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/beautiful-outdoor-swimming-pool-with-coconut-palm-tree_74190-2424.jpg?ga=GA1.1.1467767022.1728195050&semt=ais_hybrid" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Karachi</h3>
+              <p>No Places for Traveling.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/free-photo/rest-sunshine-atoll-bungalow-holiday_1232-3876.jpg?ga=GA1.1.1467767022.1728195050&semt=ais_hybrid" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Toronto</h3>
+              <p>10 Best Places For Traveling.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+    <!-- Destination cards -->
+     <div class="container">
+        <div class="cards-text">
+            <span class="efg">PLAN YOU TRIP</span>
+        <h1>Where to next?</h1>
+        <a href="#" class="btn active btn12" role="button" data-bs-toggle="button" aria-pressed="true"><span id="abcd">View All Destination</span></a>
+        </div>
+        <div class="card-group">
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/beautiful-landmark-fuji-mountain-chureito-pagoda-sunset-japan_335224-11.jpg?ga=GA1.1.1467767022.1728195050&semt=ais_hybrid" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Costa Rica</h5>
+              </div>
+              
+            </div>
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/bird-flying-with-trees-background_1353-74.jpg?ga=GA1.1.1467767022.1728195050&semt=ais_hybrid" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Patagonia</h5>
+              </div>
+             
+            </div>
+            <div class="card">
+              <img src="https://img.freepik.com/free-photo/mountains-clear-sky-torres-del-paine-national-park-chile_181624-8562.jpg?ga=GA1.1.1467767022.1728195050&semt=ais_hybrid" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Tanzania</h5>
+              </div>
+           
+            </div>
+          </div>
+     </div>
+     <!-- Side Cards -->
+      <div class="container-fluid">
+     <div class="card mb-3 sideCard" style="max-width: 1500px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="https://lonelyplanetstatic.imgix.net/marketing/2024/elsewhere/elsewhereDriver.jpg?fit=crop&auto=format&w=500&h=700&q=75" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-title sideText">elsewhere</h4>
+              <h1 class="card-text side ">Your dream itinerary, crafted with you.</h1>
+              <p class="card-text"><small class="text-muted">Make a trip request, connect with a local expert, and sit back while our experts craft a custom itinerary based on expertise, exclusivity, and ease. Its a trip you couldnt plan yourself, all with 24/7 on-the-ground support.</small></p>
+              <a href="#" class="btn btn-primary btn24">Explore elsewhere ---></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Random Picture -->
+     <div class="container1">
+    <div class="card text-bg-dark random-card position-relative">
+        <img src="https://lp-cms-production.imgix.net/2025-01/shutterstockRF754295671.jpg?w=1440&h=810&fit=crop&auto=format&q=75" class="card-img" alt="...">
+        <div class="card-img- position-absolute bottom-0 p-3 ">
+            <h5 class="card-title r-title">The 8 best places to visit in Panama</h5>
+            <p class="card-text r-text"><small>Jan 7, 2025 • 6 min read</small></p>
+            <p class="card-text r-text">Panama is so much more than a window into the canal: Wildlife, chic cityscapes, outdoor adventure and idyllic beaches abound..</p>
+        </div>
+    </div>
+    <div class="child">
+        <div class="card c1" style="width: 24rem;">
+            <div class="card-body">
+              <p class="card-text r-text">Food and Drink</p>
+              <h5 class="card-title r-title1">The best tapash dishes in Madrid and where to find them</h5>
+                <p class="card-text r-text"><small>Jan 7, 2025 • 6 min read</small></p>
+        
+            </div>
+          </div>
+          
+          <div class="card c1" style="width: 24rem;">
+            <div class="card-body">
+              <p class="card-text r-text">Destination Practicalities</p>
+              <h5 class="card-title r-title1">The ultimate Ha Giang loop itinerary</h5>
+                <p class="card-text r-text"><small>Jan 7, 2025 • 6 min read</small></p>
+        
+            </div>
+          </div>
+          
+          <div class="card c1" style="width: 24rem;">
+            <div class="card-body">
+              <p class="card-text r-text ">Beaches</p>
+              <h5 class="card-title r-title1">Which island offers the best taste of Caribbean life?</h5>
+                <p class="card-text r-text"><small>Jan 7, 2025 • 6 min read</small></p>
+        
+            </div>
+          </div>    
+    </div>
+    </div>
+
+    <!-- Footer -->
+     <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+
+    <footer class="bg-light text-center text-lg-start text-dark">
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="row my-4">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+  
+            <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 200px; height: 200px;">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKtyNZ_g587svMkea_8iQf3uAgWQWrubf88uVT7qXT5dKikcw0XOmNNASMdnSFjxZq8ks&usqp=CAU" height="70" alt=""
+                   loading="lazy" />
+            </div>
+            <h5 class="text-uppercase mb-4 r-text">Follow Us</h5>
+            <ul class="list-unstyled d-flex flex-row justify-content-center">
+                <li>
+                  <a class="text-dark px-2" href="#!">
+                    <i class="fab fa-facebook-square"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="text-dark px-2" href="#!">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li>
+                <li>
+                 <a class="text-dark px-2" href="#!">
+                 <i class="fa-brands fa-x-twitter"></i>
+                 </a>
+                </li>
+                <li>
+                  <a class="text-dark ps-2" href="#!">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+                <li>
+                    <a class="text-dark ps-2" href="#!">
+                        <i class="fa-brands fa-pinterest"></i>
+                    </a>
+                  </li>
+              </ul>
+  
+            <p class="text-dark r-special">Subscribe to Lonely Planet newsletters and promotions. Read our</p>
+
+  
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Top Destinations</h5>
+  
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#!" class="text-dark r-acd">New York City</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-dark r-acd">Chicago</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-dark r-acd">Virginia</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-dark r-acd">WashingtonDC</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-dark r-acd">USA</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-dark r-acd">Toronto</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-dark r-acd">UAE</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Travel Interests</h5>
+  
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="#!" class="text-dark r-acd">Advance Travel</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-dark r-acd">Arts and Culture</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-dark r-acd">Family Holidays</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-dark r-acd">Festival</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-dark r-acd">Food and Drinks</a>
+              </li>
+              <li class="mb-2">
+                <a href="#!" class="text-dark r-acd">Road Trips</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->    
+          
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase mb-4">Contact</h5>
+  
+            <ul class="list-unstyled">
+              <li>
+                <p class="r-acd"><i class="fas fa-map-marker-alt pe-2"></i>Warsaw, 57 Street, Poland</p>
+              </li>
+              <li>
+                <p class="r-acd"><i class="fas fa-phone pe-2"></i>+ 01 234 567 89</p>
+              </li>
+              <li>
+                <p class="r-acd"><i class="fas fa-envelope pe-2 mb-0 "></i>contact@example.com</p>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/">MDlonely planet.com</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  
+  </div>
+  <!-- End of .container -->
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
