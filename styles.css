@@ -179,3 +179,26 @@ h1{
 .r-special{
     font-size: 0.8rem;
 }
+.container2{
+    display: flex;
+    position: relative;
+}
+.container2 h1{
+   position: absolute;
+   top: 300px;
+   left: 250px;
+   right: 20px;
+   bottom: 20;
+   font-size: 5.4rem;
+   font-weight: 700;
+   color: white;
+}
+.container2 h1 span{
+    font-weight: 700;
+    margin-left: 100px;
+}
+.heroCards img{
+    width: 480px;
+    height: 600px;
+    border: 1px solid #eccaca;
+}
